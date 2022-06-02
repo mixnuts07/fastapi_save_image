@@ -1,1 +1,2 @@
-# fastapi-image-get
+（NO emergency)
+imageのreturnする（predictionなし）
