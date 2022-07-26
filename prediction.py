@@ -24,7 +24,6 @@ def preprocess(image: Image.Image):
     return image
 
 def predict(image: np.ndarray):
-    global model
     if model is None:
         model = load_model()
     pred = imagenet_utils.decode_predictions(model.predict(image), 2)[0]
