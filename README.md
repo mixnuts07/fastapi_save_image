@@ -1,2 +1,1 @@
-（NO emergency)
-imageのreturnする（predictionなし）
+
